@@ -5,6 +5,7 @@
 
 body {
   background-color: azure;
+  overflow-y: hidden;
 }
 
 .main {
@@ -99,8 +100,9 @@ form input {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 700px;
+    margin-top: 70px;
   }
   h2 {
     font-size: 35px;
